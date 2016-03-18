@@ -1,3 +1,8 @@
+body {
+  background: url("../img/background.jpg") no-repeat center center fixed;
+  background-size:cover;
+}
+
 .icon1 {
   width: 100%;
   display: block;
@@ -33,4 +38,35 @@ h2 {
 
 .educationlist {
   text-align: left;
+}
+
+.page-header {
+  color: white;
+}
+
+.boxed {
+  color: white;
+}
+
+.row {
+  color: white;
+}
+
+.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.transbox p{
+    margin: 5%;
+    color: #000000;
+}
+
+.transbox h4{
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
 }
