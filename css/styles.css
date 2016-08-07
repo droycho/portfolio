@@ -1,6 +1,11 @@
 body {
   background: url("../img/background.jpg") no-repeat center center fixed;
   background-size:cover;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .icon1 {
@@ -57,7 +62,8 @@ h2 {
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
+    filter: alpha(opacity=60);
+    text-shadow:none;
 }
 
 .transbox p{
